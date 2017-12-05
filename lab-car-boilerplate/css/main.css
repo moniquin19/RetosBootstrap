@@ -74,7 +74,15 @@ h6 {
 
 }
 
+
 #map {
 	background-color: #F5B532;
+	height: 500px;
 }
+
+.input-group {
+	width: 300px;
+}
+
+
 /* Los estilos de tu proyecto */
