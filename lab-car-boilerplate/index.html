@@ -25,21 +25,32 @@
 
   <!-- Desarrollo parte 2 Taxi -->
 
-  <section id="taxi">
-    <div class="container col-lg-12"
-    </div>
+<section id="taxi">
+    <div class="container col-lg-12"></div>
     <div class="jumbotron col-lg-5">
-  <h2>Disfruta de tu viaje</h2>
-  <h2>Eres dueño de tu tiempo</h2>
-  <h4>viaja con</h4> 
-  <img src="assets/images/logoBlanco.png" alt="">
-  <p><a class="btn btn-primary btn-light" href="#" role="button">REGISTRATE</a></p>
-   <hr>
-   <p> O bien</p>
-   <hr>
-   <p><a class="btn btn-primary btn-light" href="#" role="button">conviertete en un conductor</a></p>
-</div>
+      <div class="text-lg hidden-xs">
+      <h2>Disfruta de tu viaje</h2>
+      <h2>Eres dueño de tu tiempo</h2>
+        <div class="travel">
+          <h4>viaja con  <img src="assets/images/logoBlanco.png" alt=""> </h4>
+          
+        </div>
+      <p><a class="btn btn-default btn-light" href="#" role="button">REGISTRATE</a></p>
+        <div class="fine">
+          <hr class="line1">
+          <span>O bien</span>
+          <hr class="line2">
+        </div>
+      <p><a class="btn btn-default btn-light" href="#" role="button">conviertete en un conductor</a></p>
+      </div>
 
+      <div class="text-xs hidden-md hidden-lg">
+        <h2>Comienza a viajar</h2>
+        <h2>con <img src="assets/images/logoBlanco.png" alt=""></h2>
+        
+      <p><a class="btn btn-default btn-light" href="#" role="button">Descarga el app</a></p>
+      </div>
+    </div>
   </section>
 <!-- Desarrollo parte 3 Descarga -->
   <section id="iphone">
@@ -48,7 +59,7 @@
         <div class="iphone6 col-lg-3">
           <img class="img-responsive"src="assets/images/iPhone6Plus.png" alt="">
         </div>
-        <div class="textphone col-lg-4">
+        <div class="textphone col-lg-4 hidden-xs">
           <h3>Descarga la nueva app</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia iure ipsam quam delectus voluptatem accusantium officiis quisquam enim, mollitia, at cupiditate.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati fugit expedita ad itaque officiis optio voluptas aperiam ipsam odio quam iure illo.</p>
@@ -57,56 +68,102 @@
     </div>
     
   </section>
-
+<!-- Desarrollo Convierte en Conductor -->
   <section id="driver">
-    <div class="jumbotron two col-lg-4">
+    <div class="jumbotron two col-lg-4 col-xs-12">
       <h2>Conduce como quieras</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quisquam, natus saepe.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Conviertete en conductor</a></p>
+      <p><a class="btn btn-warning btn-lg" href="#" role="button">Conviertete en conductor</a></p>
     </div>
     
   </section>
 
-<!-- Desarrollo parte 4 Mapa -->
+<!-- Desarrollo parte 5 Mapa -->
   <section id="map">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <h3>Tarifas</h3>
-        <p>Consulta las tarifas de LabCar aquí</p>
-        <div class="point">
-      <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Ingrese su punto de partida" aria-describedby="basic-addon1">
-    </div>
-    </div>
+        <div class="col-md-6">
+          <h3>Tarifas</h3>
+          <p>Consulta las tarifas de LabCar aquí</p>
+          <div class="point">
+            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Ingrese su punto de partida" aria-describedby="basic-addon1">
+            </div>
+          </div>
 
-    <div class="destiny">
-      <i class="fa fa-paper-plane" aria-hidden="true"></i>
-       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Ingrese su Destino" aria-describedby="basic-addon1">
-    </div>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">!Trazar Ruta¡</a></p>
-    </div>
+          <div class="destiny">
+            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Ingrese su Destino" aria-describedby="basic-addon1">
+            </div>
+          </div>
+          <a class="btn btn-default btn-lg" href="#" role="button">!TRAZAR RUTA¡</a>
+      </div> <!-- col-md-6 -->
 
-    <div class="mapa col-lg-4">
-      <iframe class="thumbnail img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62523112.01406334!2d-111.68263479507961!3d-15.610283760438165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90f99effb40af535%3A0xd2673dbf02a5b69c!2sLatin+America!5e0!3m2!1ses-419!2scl!4v1512399612050" width="500" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    <div class="mapa col-md-6">
+      <div class="geo">
+       <img src="assets/images/mapa.png" alt="">
+      </div>
     </div>
       </div>
     </div>
   </section>
 
   <section id="footer">
+    <div class="container">
+      <div class="logo2">
+        <img src="assets/images/logoBlanco.png" 
+  alt=""> 
+      </div>
+    <hr class="col-lg-11">
+    <div class="row">
+      <div class="rrss col-lg-3">
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+      <i class="fa fa-apple" aria-hidden="true"></i>
+      <i class="fa fa-play" aria-hidden="true"></i> 
+    </div>
+    <div class="list1 col-lg-2">
     <ul class="list-group">
-  <li class="list-group-item">Viaja</li>
-  <li class="list-group-item">Conduce</li>
-  <li class="list-group-item">Ciudades</li>
-  <li class="list-group-item">Ciudades</li>
-  <li class="list-group-item">Entregas</li>
-  <li class="list-group-item">Como Funciona</li>
-  <li class="list-group-item">Países</li>
-  <li class="list-group-item">Seguridad</li>
+      <li class="list-group-item">Viaja</li>
+      <li class="list-group-item">Conduce</li>
+      <li class="list-group-item">Ciudades</li>
+      <li class="list-group-item">Ciudades</li>
+      <li class="list-group-item">Entregas</li>
+      <li class="list-group-item">Como Funciona</li>
+      <li class="list-group-item">Países</li>
+      <li class="list-group-item">Seguridad</li>
 </ul>
-  </section>
+</div>
+
+    <div class="list2 col-lg-3">
+    <ul class="list-group">
+  <li class="list-group-item">Oportunidades</li>
+  <li class="list-group-item">Nuestra Historia</li>
+  <li class="list-group-item">Api de LabCar</li>
+  <li class="list-group-item">Eventos</li>
+  <li class="list-group-item">Desarrolladoras</li>
+  <li class="list-group-item">Servicios</li>
+  <li class="list-group-item">Laboratoria</li>
+  <li class="list-group-item">Coders</li>
+</ul>
+</div>
+
+<div class="others col-lg-3">
+  <img src="assets/images/appstore.png" alt="">  
+  <img src="assets/images/enBadgeWebGeneric.png" alt="">
+</div>
+  </div>
+  <hr class="col-lg-11">
+</div>
+
+  <div class="copie col-lg-3">
+    <p>© 2017 LabCar technologies Inc.</p>
+  </div>  
+</section>
 
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

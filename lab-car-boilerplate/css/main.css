@@ -1,4 +1,5 @@
-#taxi {
+/* Desarrollo parte 2 Taxi */
+ #taxi {
 	background-image: url('../assets/images/taxi.jpg');
 	background-size: cover;
 	background-position: bottom;
@@ -12,6 +13,7 @@
 	float: right;
 	margin-top: 160px;
 	color: white;
+	padding-left: 35px;
 }
 
 .container .jumbotron, .container-fluid .jumbotron {
@@ -30,6 +32,38 @@ h6 {
 	font-size: 
 }
 
+.line1 {
+	margin-bottom: 3px;
+	width: 140px;
+    height: 1px;
+    display: inline-block;
+    background: #fff;
+    border: none;
+}
+
+
+.line2 {
+		margin-bottom: 3px;
+	width: 140px;
+    height: 1px;
+    display: inline-block;
+    background: #fff;
+    border: none;
+}
+
+.fine span {
+	padding: 0px 60px;
+}
+
+.fine {
+	margin-bottom: 15px;
+}
+
+.travel h4 {
+	margin-bottom: 15px;
+}
+
+/* Desarrollo parte 3 Descarga */
 #iphone {
 	background-color: #F5B532;
 	width: 100%;
@@ -47,7 +81,7 @@ h6 {
 
 .iphone6 img{
 	margin-top: 20px;
-	margin-left: 102px;
+	margin-left: 10rem;
 	height: 350px;
 
 }
@@ -74,6 +108,20 @@ h6 {
 
 }
 
+.two p {
+	font-size: 15px;
+}
+
+#map .btn {
+	margin-left: 11rem;
+}
+
+#map .fa {
+	float: left;
+	font-size: 2.5rem;
+	color: white;
+	padding: 5px 15px;
+}
 
 #map {
 	background-color: #F5B532;
@@ -82,7 +130,65 @@ h6 {
 
 .input-group {
 	width: 300px;
+	float: left;
+	margin-right: 20rem;
+	margin-bottom: 3rem;
 }
+
+#map input {
+	background-color: transparent;
+	border-radius: 1rem;
+	color: white;
+	border-color: white;
+}
+
+#map input::placeholder {
+	color: white;
+}
+
+#map .geo {
+	width: 400px;
+	height: 400px;
+	border: 1px solid white;
+}
+
+#map img {
+	width: 380px;
+	height: 380px;
+	margin: 10px;
+}
+
+#footer {
+	background-color: #2B2B2B;
+	height: 600px;
+	color: white;
+}
+
+.list-group-item {
+	background-color: #2B2B2B;
+	border: 0px;
+}
+
+.logo2 {
+	margin-top: 100px;
+}
+
+.rrss {
+	top: 320px;
+	font-size: 20px;
+}
+
+.others {
+	top: 180px;
+}
+
+.others img {
+	padding-bottom: 15px;
+}
+
+
+
+
 
 
 /* Los estilos de tu proyecto */
